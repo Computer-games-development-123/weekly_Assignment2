@@ -8,5 +8,5 @@ public class Rotator : MonoBehaviour
     void Update()
     {
         transform.Rotate(rotationAxis.normalized * rotationSpeed * Time.deltaTime);
-    }
+    }
 }

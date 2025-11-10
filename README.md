@@ -17,9 +17,10 @@
 
 | שם הרכיב | תיאור | מה הוא עושה |
 |---------|-------|-------------|
-| **Mover** | רכיב להזזת עצמים בקו ישר | מעביר עצם קדימה/אחורה/ימינה/שמאלה במהירות קבועה |
 | **Oscillator** | תנועה מחזורית | גורם לעצם לזוז בין שתי נקודות וחוזר חלילה (תנועה סינוסואידלית) |
 | **Rotator** | סיבוב של עצם סביב ציר | מסובב את העצם במהירות קבועה סביב ציר X/Y/Z |
+| **Pulse** | מדמה לב פועם | מגדיל מקטין את העצם בהדרגה |
+| **Visability** | העלמת עצם | מעלים את העצם ומחזיר אותו על ידי לחיצת כפתור(H) |
 
 כל אחד מהרכיבים נבנה עם **פרמטרים מתכווננים** ב־Inspector, כך שניתן לשלוט במהירות, מרחק ותדר.
 
@@ -45,6 +46,7 @@ https://docs.unity3d.com/Manual/class-Camera.html
 /ProjectSettings
 LICENSE
 .gitignore
+.gitattributes
 ```
 
 ---
@@ -54,7 +56,8 @@ LICENSE
 2. Clone או הורידו את המאגר.
 3. פתחו את התיקייה בפרויקט Unity.
 4. הריצו את הסצנה הראשית (`MainScene`).
-
+5. להעברה לסצנה 2 (חלק ב של המטלה) לחץ 2.
+6. חזרה לסצנה 1 (חלק א של המטלה) לחץ 1.
 ---
 
 ## 🌐 קישור למשחק / Build

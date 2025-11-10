@@ -62,7 +62,8 @@ LICENSE
 
 ## 🌐 קישור למשחק / Build
 🔗 **המשחק עצמו:**  
-*כאן יבוא קישור ל־itch.io / Google Drive / GitHub Releases — ימולא מאוחר יותר*
+*https://imrfatty.itch.io/weekly-assignment2
+*
 
 ---
 

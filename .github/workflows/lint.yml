@@ -1,0 +1,27 @@
+name: Lint C# Files
+
+on:
+  push:
+    paths:
+      - 'Assets/**/*.cs'
+      - 'Scripts/**/*.cs'
+  pull_request:
+    paths:
+      - 'Assets/**/*.cs'
+      - 'Scripts/**/*.cs'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.0.x'
+      - name: Restore & Build
+        run: |
+          dotnet restore
+          dotnet build

@@ -21,5 +21,5 @@ public class CameraAutoSize : MonoBehaviour
 
         // מתקן את ה-orthographicSize לפי היחס הנוכחי
         cam.orthographicSize = referenceOrthographicSize * (referenceAspect / currentAspect);
-    }
+    }
 }

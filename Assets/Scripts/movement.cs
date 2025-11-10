@@ -41,6 +41,6 @@ public class movement : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = false;
-       }
+        }
     }
 }

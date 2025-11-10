@@ -18,5 +18,5 @@ public class PulsingObject : MonoBehaviour
         float sinValue = Mathf.Sin(Time.time * pulseSpeed); // -1..1
         float scaleFactor = 1f + sinValue * pulseAmplitude; // למשל 0.7..1.3
         transform.localScale = originalScale * scaleFactor;
-    }
+    }
 }

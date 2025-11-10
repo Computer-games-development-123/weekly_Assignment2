@@ -18,8 +18,7 @@ public class Oscillator : MonoBehaviour
         if (period <= 0f) return;
 
         float cycles = Time.time / period;               // כמה מחזורים עברו
-        float sinValue = Mathf.Sin(cycles * 2f * Mathf.PI); 
-        // sin בין -1 ל+1, מאיץ ומאט אוטומטית
+        float sinValue = Mathf.Sin(cycles * 2f * Mathf.PI);    // sin בין -1 ל+1, מאיץ ומאט אוטומטית
 
         float offset = sinValue * distance;
         transform.position = startPos + movementDirection.normalized * offset;

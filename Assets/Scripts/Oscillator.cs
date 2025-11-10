@@ -23,5 +23,5 @@ public class Oscillator : MonoBehaviour
 
         float offset = sinValue * distance;
         transform.position = startPos + movementDirection.normalized * offset;
-    }
+    }
 }

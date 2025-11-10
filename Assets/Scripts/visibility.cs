@@ -19,6 +19,6 @@ public class ToggleVisibility : MonoBehaviour
             {
                 objRenderer.enabled = !objRenderer.enabled;
             }
-       }
+        }
     }
 }

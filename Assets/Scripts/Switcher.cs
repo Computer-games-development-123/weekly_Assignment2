@@ -15,6 +15,6 @@ public class SceneSwitcher : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             SceneManager.LoadScene("PartB");
-        }
-    }
+       }
+    }
 }

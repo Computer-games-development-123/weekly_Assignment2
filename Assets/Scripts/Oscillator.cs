@@ -21,6 +21,6 @@ public class Oscillator : MonoBehaviour
         float sinValue = Mathf.Sin(cycles * 2f * Mathf.PI);    // sin בין -1 ל+1, מאיץ ומאט אוטומטית
 
         float offset = sinValue * distance;
-        transform.position = startPos+movementDirection.normalized*offset;
+        transform.position = startPos + movementDirection.normalized * offset;
     }
 }

@@ -8,6 +8,6 @@ public class followPlayer : MonoBehaviour
     void LateUpdate()
     {
         if (player == null) return;
-        transform.position = player.position+offset;
+        transform.position = player.position + offset;
     }
 }
